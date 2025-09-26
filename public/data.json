@@ -1,0 +1,137 @@
+[
+  {
+    "ticket": "#1002",
+    "subject": "Payment Declined - Card Not Accepted",
+    "description": "User attempted multiple payments but the card keeps getting declined.",
+    "priority": "CRITICAL",
+    "status": "In Progress",
+    "requestBy": "Emily Johnson",
+    "createDate": "1/20/2024"
+  },
+  {
+    "ticket": "#1003",
+    "subject": "Page Not Found - Error 404",
+    "description": "Customer is reporting broken links on the product page.",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "requestBy": "Michael Brown",
+    "createDate": "1/22/2024"
+  },
+  {
+    "ticket": "#1004",
+    "subject": "Mobile App Freezing",
+    "description": "App freezes when clicking on checkout button.",
+    "priority": "HIGH",
+    "status": "Open",
+    "requestBy": "Sophia Davis",
+    "createDate": "1/25/2024"
+  },
+  {
+    "ticket": "#1005",
+    "subject": "Search Results Not Accurate",
+    "description": "Search query returning irrelevant results for customer.",
+    "priority": "LOW",
+    "status": "Resolved",
+    "requestBy": "Liam Wilson",
+    "createDate": "1/28/2024"
+  },
+  {
+    "ticket": "#1006",
+    "subject": "Order History Missing",
+    "description": "User cannot see past orders in their account dashboard.",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "requestBy": "Olivia Martinez",
+    "createDate": "2/01/2024"
+  },
+  {
+    "ticket": "#1007",
+    "subject": "Email Notifications Not Sent",
+    "description": "System not sending out order confirmation emails.",
+    "priority": "CRITICAL",
+    "status": "Open",
+    "requestBy": "Noah Anderson",
+    "createDate": "2/05/2024"
+  },
+  {
+    "ticket": "#1008",
+    "subject": "Profile Picture Upload Failing",
+    "description": "Users unable to update profile pictures due to server error.",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "requestBy": "Isabella Thomas",
+    "createDate": "2/10/2024"
+  },
+  {
+    "ticket": "#1009",
+    "subject": "Discount Code Not Applying",
+    "description": "Customer reported discount code not reducing total price.",
+    "priority": "LOW",
+    "status": "Closed",
+    "requestBy": "James White",
+    "createDate": "2/12/2024"
+  },
+  {
+    "ticket": "#1010",
+    "subject": "Cart Items Disappearing",
+    "description": "Items in cart are removed when refreshing the page.",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "requestBy": "Mia Harris",
+    "createDate": "2/15/2024"
+  },
+  {
+    "ticket": "#1011",
+    "subject": "Broken Image Links",
+    "description": "Product images not loading properly on category page.",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "requestBy": "Benjamin Clark",
+    "createDate": "2/18/2024"
+  },
+  {
+    "ticket": "#1012",
+    "subject": "Checkout Button Not Responding",
+    "description": "Customer cannot proceed to payment step.",
+    "priority": "CRITICAL",
+    "status": "Open",
+    "requestBy": "Charlotte Lewis",
+    "createDate": "2/20/2024"
+  },
+  {
+    "ticket": "#1013",
+    "subject": "Refund Not Processed",
+    "description": "Refund request pending for over 10 days.",
+    "priority": "HIGH",
+    "status": "Open",
+    "requestBy": "Henry Walker",
+    "createDate": "2/22/2024"
+  },
+  {
+    "ticket": "#1014",
+    "subject": "Language Switch Not Working",
+    "description": "Website not switching to Spanish when selected.",
+    "priority": "LOW",
+    "status": "Resolved",
+    "requestBy": "Amelia Hall",
+    "createDate": "2/25/2024"
+  },
+  {
+    "ticket": "#1015",
+    "subject": "Report Download Failed",
+    "description": "System throwing error when generating sales report.",
+    "priority": "HIGH",
+    "status": "In Progress",
+    "requestBy": "Ethan Allen",
+    "createDate": "2/28/2024"
+  },
+  {
+    "ticket": "#1016",
+    "subject": "Two-Factor Authentication Not Working",
+    "description": "Users not receiving OTP on mobile.",
+    "priority": "CRITICAL",
+    "status": "Open",
+    "requestBy": "Harper Young",
+    "createDate": "3/01/2024"
+  }
+]
