@@ -11,8 +11,8 @@ const Resolve = ({ resolve, index }) => {
     <div className="">
       <div key={index} className="border-b border-gray-200 pb-2 mb-2">
         <p className="font-semibold text-base ">{resolve.subject}</p>
-        <p>{resolve.createDate}</p>
-        <button className="bg-[#02a53b] cursor-pointer text-white font-semibold text-[15px] w-full rounded-lg mt-1 p-2 transition duration-300 hover:bg-[#028c30] shadow-md">
+        <p className="">{resolve.createDate}</p>
+        <button className=" cursor-pointer text-green-500 font-semibold text-[20px] w-full rounded-lg mt-1 p-2 transition duration-300  shadow-md">
           Completed
         </button>
       </div>

@@ -45,7 +45,7 @@ const Navber = () => {
             <li><a>Download</a></li>
             <li><a>Contact</a></li>
           </ul>
-          <button className="btn">
+          <button className="btn bg-gradient-to-r from-[#632ee3] text-white font-semibold to-[#9f62f2]">
             <span>+</span> New Ticket
           </button>
         </div>

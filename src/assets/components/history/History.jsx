@@ -34,8 +34,8 @@ const History = ({
         Customer Tickets
       </h2>
 
-      <div className=" grid grid-cols-10  p-2 gap-2">
-        <div className="col-span-7 gap-2 grid grid-cols-1 md:grid-cols-2">
+      <div className=" grid grid-cols-1 md:grid-cols-10 p-2 gap-2">
+        <div className=" md:col-span-7 gap-2 grid grid-cols-1 md:grid-cols-2">
           {customerTickets.map((card) => (
             <Card
               key={card.ticket}
@@ -57,7 +57,7 @@ const History = ({
             handleMainRemoval={handleMainTicketRemoval}
           ></CardHistory>
           <div className="items-center">
-            <h2 className="font-bold text-[#34485a] text-center text-[25px] whitespace-nowrap">Resolve</h2>
+            <h2 className="text-[#34485a] font-semibold text-[25px] text-center whitespace-nowrap">Resolved</h2>
             {resolvedTickets.map((resolve, index) => (
               <Resolve resolve={resolve} index={index}></Resolve>
             ))}

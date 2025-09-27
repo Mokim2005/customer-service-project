@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 const Card = ({ card,setSelectedCard }) => {
   const [isSelected, setIsSelected] = useState(false);
   const handleCardClick = () => {
-    toast("Clicked");
+    toast("In-Progress!!");
     setIsSelected(true);
     setSelectedCard((prevSelectedCards) => [...prevSelectedCards, card]);
   };

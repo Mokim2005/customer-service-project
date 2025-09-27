@@ -23,6 +23,7 @@ const CardHistory = ({ selectedCard, removeHistory, handleMainRemoval }) => {
           <p className="font-semibold text-base">
             {card.subject}
           </p>
+          <p>{card.createDate}</p>
 
           <button
             onClick={() => {handleCompleteClick(card),handleButton()}}
