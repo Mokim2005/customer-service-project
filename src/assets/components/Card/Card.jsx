@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import vactorImg from "../../../assets/Vector.png";
-import { ToastContainer, toast } from "react-toastify";
-const Card = ({ card,selectedCard,setSelectedCard }) => {
+import { toast } from "react-toastify";
+const Card = ({ card,setSelectedCard }) => {
   const [isSelected, setIsSelected] = useState(false);
   const handleCardClick = () => {
-    toast("clicked");
+    toast("Clicked");
     setIsSelected(true);
-    setSelectedCard(...selectedCard,card)
+    setSelectedCard((prevSelectedCards) => [...prevSelectedCards, card]);
   };
   return (
     <div
@@ -40,7 +40,7 @@ const Card = ({ card,selectedCard,setSelectedCard }) => {
         </div>
         <div className="flex items-center justify-between space-x-2">
           <div className="flex text-[#627382] justify-between items-center space-x-2">
-            <p >{card.requestBy}</p>
+            <p>{card.requestBy}</p>
             <div className="flex items-center ">
               <img className="w-[15px]" src={vactorImg} alt="" />
               <p>{card.createDate}</p>
@@ -48,7 +48,7 @@ const Card = ({ card,selectedCard,setSelectedCard }) => {
           </div>
         </div>
       </div>
-      <ToastContainer />
+     
     </div>
   );
 };
