@@ -11,7 +11,7 @@ const Card = ({ card,setSelectedCard }) => {
   return (
     <div
       onClick={handleCardClick}
-      className=" cursor-pointer bg-white shaddw-3xl rounded-lg border-gray-600 p-4 mt-3"
+      className=" cursor-pointer bg-white shaddw-3xl rounded-lg min-w-[100px] border-gray-600 p-4 mt-3"
     >
       <div className="flex justify-between items-center gap-1">
         <h2 className="font-semibold text-[18px]">{card.subject}</h2>
